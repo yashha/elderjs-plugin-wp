@@ -1,5 +1,5 @@
 {
-  "name": "elder-plugin-wp",
+  "name": "elderjs-plugin-wp",
   "version": "0.0.1",
   "description": "Easily wordpress integration for your Elder.js powered website.",
   "keywords": [
