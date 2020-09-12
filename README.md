@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/elderjs-plugin-wp)
+
 # Elder.js Plugin: Wordpress Plugin
 
 This plugin provides an easy wordpress integration for Elder.js using the [WP-API](https://github.com/WP-API/node-wpapi) npm package.
