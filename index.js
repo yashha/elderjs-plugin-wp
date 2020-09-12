@@ -1,6 +1,6 @@
 const plugin = {
-  name: 'elderjs-plugin-your-plugin',
-  description: `[copy and paste the start of your readme]`,
+  name: 'elderjs-plugin-wp',
+  description: `This plugin provides an easy wordpress integration for Elder.js using the WP-API npm package.`,
   init: (plugin) => {
     // this is a sync function that runs on plugin initialization.
     // if you need async, it is recommended that you extract the async logic to run on the 'bootstrap' hook.

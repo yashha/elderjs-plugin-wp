@@ -1,7 +1,6 @@
 # Elder.js Plugin: Wordpress Plugin
 
-> Here is where you'd write an intro to your plugin.
-
+This plugin provides an easy wordpress integration for Elder.js using the [WP-API](https://github.com/WP-API/node-wpapi) npm package.
 
 ## Install
 
