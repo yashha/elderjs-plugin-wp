@@ -1,7 +1,7 @@
 {
-  "name": "elder-plugin-your-feature",
+  "name": "elder-plugin-wp",
   "version": "0.0.1",
-  "description": "Easily {do something special} for your Elder.js powered website.",
+  "description": "Easily wordpress integration for your Elder.js powered website.",
   "keywords": [
     "elder.js",
     "elderjs",
@@ -9,7 +9,9 @@
     "ssg",
     "static",
     "site",
-    "generator"
+    "generator",
+    "wordpress",
+    "wpapi"
   ],
   "license": "MIT",
   "main": "index.js",
