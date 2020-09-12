@@ -3,7 +3,7 @@ const plugin = {
   description: `This plugin provides an easy wordpress integration for Elder.js using the WP-API npm package.`,
   init: (plugin) => {
     const { config } = plugin;
-    if (!endpoint) {
+    if (!config.endpoint) {
       console.log("elderjs-plugin-wp: No endpoint provided in config.");
     }
     let wp = new WPApi({
