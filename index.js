@@ -1,3 +1,5 @@
+const WPApi = require('wpapi');
+
 const plugin = {
   name: "elderjs-plugin-wp",
   description: `This plugin provides an easy wordpress integration for Elder.js using the WP-API npm package.`,
@@ -20,8 +22,7 @@ const plugin = {
       priority: 50,
       run: async ({ data, plugin }) => {
         return {
-          data,
-          wp: plugin.wp,
+          data: {...data, wp: plugin.wp},
         };
       },
     },

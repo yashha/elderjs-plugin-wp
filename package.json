@@ -15,5 +15,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {}
+  "dependencies": {
+    "wpapi": "^1.2.1"
+  }
 }
